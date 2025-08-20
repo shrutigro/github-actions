@@ -1,21 +1,17 @@
-# terraform {
-#   required_providers {
-#     azurerm = {
-#       source = "hashicorp/azurerm"
-#       version = "4.29.0"
-#     }
-#   }
-# }
-
-# provider "azurerm" {
-#   features {
+terraform {
+  required_providers {
+    azurerm = {
+      source  = "hashicorp/azurerm"
+      version = "4.39.0"
+    }
+  }
+}
+provider "azurerm" {
+  subscription_id = "381b371f-c06d-4487-a677-8d1e6f61613f"
+  features {}
   
-#   resource_group {
-#  prevent_deletion_if_contains_resources = false
-#   }
-# }
-# subscription_id = "b9d3595d-2e5f-4afb-8b6d-308d85765e95"
-# }
+}
+
 
 resource "azurerm_resource_group" "rg" {
   name     = "rg-mywebapp"
