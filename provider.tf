@@ -26,3 +26,7 @@ name = "shruti"
 location = "eastus"
 }
 
+resource "azurerm_resource_group" "rg-b1" {
+name = "shruti1"
+location = "eastus"
+}
