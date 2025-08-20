@@ -21,3 +21,8 @@ client_id       = "03ebe487-6f3a-438c-bd4c-a4ac21d156ae"
 client_secret   = "SkK8Q~v9NSdoHEmR3TvmsOFA~NJ4luL5nw0hUczF"
 tenant_id       = "26e60ec1-7b36-467d-b345-01978ec43d5f"
 }
+resource "azurerm_resource_group" "rg-b" {
+name = "shruti"
+location = "eastus"
+}
+
