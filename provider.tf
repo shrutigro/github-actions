@@ -1,8 +1,4 @@
-#Syntax	Meaning
-# = 3.79.0	Use only this version
-# ~> 3.79.0	Use latest patch of 3.79.x (e.g., 3.79.9)
-# >= 3.80.0	Use 3.80.0 or newer
-# >= 3.80.0, < 4.0.0	Stay in v3.x only, avoid v4 changes
+
 
 terraform {
   required_providers {
