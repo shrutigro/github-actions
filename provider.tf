@@ -34,3 +34,7 @@ resource "azurerm_resource_group" "rg-b2" {
 name = "shruti2"
 location = "eastus"
 }
+resource "azurerm_resource_group" "rg-b3" {
+name = "shruti3"
+location = "eastus"
+}
